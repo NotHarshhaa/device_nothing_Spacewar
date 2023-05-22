@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2022 Project-Elixir
+# Copyright (C) 2023 NusantaraROM Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -12,28 +12,23 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/nothing/Spacewar/device.mk)
 
 # Inherit from Project-Elixir configuration.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
 # Bootanimation resolution.
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Project-Elixir stuff
-TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+# NusantaraROM stuff
 TARGET_SUPPORTS_QUICK_TAP := true
 FACE_UNLOCK_SUPPORTED := true
-ELIXIR_MAINTAINER := HarshhaaReddyPamarthi
-ELIXIR_BUILD_TYPE := OFFICIAL
-TARGET_SUPPORTS_GOOGLE_RECORDER := false
-TARGET_INCLUDE_STOCK_ACORE := false
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
-EXTRA_UDFPS_ANIMATIONS := true
+NAD_BUILD_TYPE := OFFICIAL
+USE_GAPPS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Nothing
 PRODUCT_DEVICE := Spacewar
 PRODUCT_MANUFACTURER := Nothing
 PRODUCT_MODEL := A063
-PRODUCT_NAME := aosp_Spacewar
+PRODUCT_NAME := nad_Spacewar
 PRODUCT_SYSTEM_DEVICE := Spacewar
 PRODUCT_SYSTEM_NAME := Spacewar
 

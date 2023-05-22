@@ -1,9 +1,9 @@
 //
-// Copyright (C) 2022 Project-Elixir
+// Copyright (C) 2023 NusantaraROM Project
 // SPDX-License-Identifier: Apache-2.0
 //
 
 runtime_resource_overlay {
-    name: "ElixirFrameworks",
+    name: "NadFrameworks",
     vendor: true,
 }

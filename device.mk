@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2022 Project-Elixir
+# Copyright (C) 2022 Project-Nad
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -321,10 +321,10 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
-    ElixirFrameworks \
-    ElixirSettingsProvider \
-    ElixirSettings \
-    ElixirSystemUI
+    NadFrameworks \
+    NadSettingsProvider \
+    NadSettings \
+    NadSystemUI
 
 # Overlay LAHAINA
 PRODUCT_PACKAGES += \
@@ -347,9 +347,9 @@ PRODUCT_PACKAGES += \
     QSSITelephony \
     QSSIWifi
 
-# Elixir Glyph
+# Nusantara Glyph
 PRODUCT_PACKAGES += \
-    ElixirGlyph
+    NusantaraGlyph
 
 # Project ID Quota
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
