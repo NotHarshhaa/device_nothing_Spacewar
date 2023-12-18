@@ -306,6 +306,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     fstab.default \
+    fstab.zram \
     init.class_main.sh \
     init.kernel.post_boot-yupik.sh \
     init.kernel.post_boot.sh \
