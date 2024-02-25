@@ -2389,8 +2389,8 @@
         <ctl name="ADC1_MIXER Switch" value="1"/>
     </path>
     <path name="dmic-endfire">
-        <path name="handset-mic-voip"/> 
-    </path> 
+        <path name="handset-mic"/>
+    </path>
     <path name="dmic-endfire-liquid">
         <path name="handset-dmic-endfire"/>
         <ctl name="IIR0 INP0 MUX" value="DEC7"/>
@@ -2399,7 +2399,7 @@
         <path name="handset-dmic-endfire"/>
     </path>
     <path name="speaker-dmic-endfire">
-        <path name="speaker-mic-voip"/>
+        <path name="voice-speaker-mic"/>
     </path>
     <path name="speaker-stereo-dmic-ef">
         <path name="speaker-dmic-endfire"/>
@@ -2408,10 +2408,10 @@
         <path name="dmic-endfire"/>
     </path>
     <path name="voice-dmic-ef">
-        <path name="handset-mic"/>
+        <path name="dmic-endfire"/>
     </path>
     <path name="voice-speaker-dmic-ef">
-        <path name="voice-speaker-mic"/>
+        <path name="speaker-dmic-endfire"/>
     </path>
     <path name="voice-rec-dmic-ef">
         <path name="dmic-endfire"/>
