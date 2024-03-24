@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from Nothing Phone (1) (2.5.1-OBT-1).
+## are from Nothing Phone (1) (U2.5-240301-1852).
 
 abl.img;AB
 aop.img;AB
