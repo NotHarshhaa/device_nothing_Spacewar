@@ -16,6 +16,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 # NT Camera
 $(call inherit-product, vendor/nothing/camera/nothing-camera.mk)
 
+# Prebuilts
+$(call inherit-product, vendor/pixys-prebuilts/config.mk)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay

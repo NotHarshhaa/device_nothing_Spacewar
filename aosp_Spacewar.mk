@@ -27,6 +27,7 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_INCLUDE_STOCK_ACORE := false
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 EXTRA_UDFPS_ANIMATIONS := true
+TARGET_INCLUDE_CARRIER_SETTINGS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Nothing

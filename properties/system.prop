@@ -67,9 +67,6 @@ ro.telephony.sim_slots.count=2
 ro.vendor.use_data_netmgrd=true
 telephony.active_modems.max_count=2
 telephony.lteOnCdmaDevice=1
-persist.dbg.volte_avail_ovr=1
-persist.dbg.wfc_avail_ovr=1
-persist.dbg.vt_avail_ovr=1
 
 # RmNet
 persist.rmnet.data.enable=true
