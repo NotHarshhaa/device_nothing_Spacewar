@@ -3,3 +3,4 @@ vendor/nothing/*
 kernel/nothing/*
 packages/apps/Elixir*
 vendor/nothing/*
+vendor/pixys-prebuilts/*
